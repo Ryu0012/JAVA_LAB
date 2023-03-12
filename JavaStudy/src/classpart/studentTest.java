@@ -8,7 +8,9 @@ public class studentTest {
 		Student student2 = new Student();
 		student2.studentName = "안승연";
 		
+		// 멤버 변수 사용
 		System.out.println(student1.studentName);
+		// 메서드 사용
 		System.out.println(student2.getStudentName());
 
 
